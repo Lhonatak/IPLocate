@@ -14,19 +14,11 @@
 			remoteGlobalIDString = BA93C7202F85893C003A1B3D;
 			remoteInfo = IPLocate;
 		};
-		BA93C73E2F85893D003A1B3D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BA93C7192F85893C003A1B3D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BA93C7202F85893C003A1B3D;
-			remoteInfo = IPLocate;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		BA93C7212F85893C003A1B3D /* IPLocate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IPLocate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA93C7332F85893D003A1B3D /* IPLocateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IPLocateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BA93C73D2F85893D003A1B3D /* IPLocateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IPLocateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -62,13 +54,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BA93C73A2F85893D003A1B3D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -87,7 +72,6 @@
 			children = (
 				BA93C7212F85893C003A1B3D /* IPLocate.app */,
 				BA93C7332F85893D003A1B3D /* IPLocateTests.xctest */,
-				BA93C73D2F85893D003A1B3D /* IPLocateUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -140,29 +124,6 @@
 			productReference = BA93C7332F85893D003A1B3D /* IPLocateTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		BA93C73C2F85893D003A1B3D /* IPLocateUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BA93C74D2F85893D003A1B3D /* Build configuration list for PBXNativeTarget "IPLocateUITests" */;
-			buildPhases = (
-				BA93C7392F85893D003A1B3D /* Sources */,
-				BA93C73A2F85893D003A1B3D /* Frameworks */,
-				BA93C73B2F85893D003A1B3D /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				BA93C73F2F85893D003A1B3D /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				BA93C7402F85893D003A1B3D /* IPLocateUITests */,
-			);
-			name = IPLocateUITests;
-			packageProductDependencies = (
-			);
-			productName = IPLocateUITests;
-			productReference = BA93C73D2F85893D003A1B3D /* IPLocateUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -177,10 +138,6 @@
 						CreatedOnToolsVersion = 26.0.1;
 					};
 					BA93C7322F85893D003A1B3D = {
-						CreatedOnToolsVersion = 26.0.1;
-						TestTargetID = BA93C7202F85893C003A1B3D;
-					};
-					BA93C73C2F85893D003A1B3D = {
 						CreatedOnToolsVersion = 26.0.1;
 						TestTargetID = BA93C7202F85893C003A1B3D;
 					};
@@ -202,7 +159,6 @@
 			targets = (
 				BA93C7202F85893C003A1B3D /* IPLocate */,
 				BA93C7322F85893D003A1B3D /* IPLocateTests */,
-				BA93C73C2F85893D003A1B3D /* IPLocateUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -216,13 +172,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		BA93C7312F85893D003A1B3D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BA93C73B2F85893D003A1B3D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -246,13 +195,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BA93C7392F85893D003A1B3D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -260,11 +202,6 @@
 			isa = PBXTargetDependency;
 			target = BA93C7202F85893C003A1B3D /* IPLocate */;
 			targetProxy = BA93C7342F85893D003A1B3D /* PBXContainerItemProxy */;
-		};
-		BA93C73F2F85893D003A1B3D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = BA93C7202F85893C003A1B3D /* IPLocate */;
-			targetProxy = BA93C73E2F85893D003A1B3D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -400,6 +337,7 @@
 				DEVELOPMENT_TEAM = B9Z99RSN6T;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Use location for MapKit";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -410,15 +348,19 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Lhonatak.IPLocate;
+				PRODUCT_BUNDLE_IDENTIFIER = Lhonatak.HealthStats;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -432,6 +374,7 @@
 				DEVELOPMENT_TEAM = B9Z99RSN6T;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Use location for MapKit";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -442,15 +385,19 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Lhonatak.IPLocate;
+				PRODUCT_BUNDLE_IDENTIFIER = Lhonatak.HealthStats;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -464,14 +411,18 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Lhonatak.IPLocateTests;
+				PRODUCT_BUNDLE_IDENTIFIER = Lhonatak.HealthStats;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IPLocate.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/IPLocate";
 			};
 			name = Debug;
@@ -486,55 +437,19 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Lhonatak.IPLocateTests;
+				PRODUCT_BUNDLE_IDENTIFIER = Lhonatak.HealthStats;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IPLocate.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/IPLocate";
-			};
-			name = Release;
-		};
-		BA93C74E2F85893D003A1B3D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = B9Z99RSN6T;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Lhonatak.IPLocateUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRING_CATALOG_GENERATE_SYMBOLS = NO;
-				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = IPLocate;
-			};
-			name = Debug;
-		};
-		BA93C74F2F85893D003A1B3D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = B9Z99RSN6T;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Lhonatak.IPLocateUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRING_CATALOG_GENERATE_SYMBOLS = NO;
-				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = IPLocate;
 			};
 			name = Release;
 		};
@@ -564,15 +479,6 @@
 			buildConfigurations = (
 				BA93C74B2F85893D003A1B3D /* Debug */,
 				BA93C74C2F85893D003A1B3D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BA93C74D2F85893D003A1B3D /* Build configuration list for PBXNativeTarget "IPLocateUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BA93C74E2F85893D003A1B3D /* Debug */,
-				BA93C74F2F85893D003A1B3D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
